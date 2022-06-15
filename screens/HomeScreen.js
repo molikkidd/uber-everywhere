@@ -4,7 +4,7 @@ import tw from 'tailwind-react-native-classnames'
 import NavOptions from '../components/NavOptions'
 // add tailwind
 
-const HomeScreen = () => {
+const HomeScreen = ({navigation}) => {
   return (
     <SafeAreaView style={tw`bg-white h-full`}>
         {/* Add Uber Image */}
