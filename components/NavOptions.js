@@ -17,7 +17,8 @@ const data = [
         image: "https://links.papareact.com/28w",
         screen: "EatScreen",
     },
-]
+];
+
 const NavOptions = () => {
     // add navi options
     const navigation = useNavigation();

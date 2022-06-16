@@ -1,12 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import tw from 'tailwind-react-native-classnames'
 
-export default function MapScreen() {
+const MapScreen = () => {
   return (
     <View>
-      <Text>This is the MapScreen</Text>
+      <Text style={tw`m-8`}>This is the MapScreen</Text>
     </View>
   )
 }
+export default MapScreen
 
 const styles = StyleSheet.create({})
