@@ -11,7 +11,7 @@ const initialState = {
 // create slice
 
 const navSlice = createSlice({
-    name: 'nav',
+    name: "nav",
     initialState,
     reducers: {
         // where it came from
@@ -20,7 +20,7 @@ const navSlice = createSlice({
         },
         // where its going
         setDestination: (state, action) => {
-            state.origin = action.payload
+            state.destination = action.payload
         },
         // how long it takes to get there
         setTravelTimeInformation: (state, action) => {
